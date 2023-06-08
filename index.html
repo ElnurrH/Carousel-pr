@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="bg-secondary d-flex text-decoration-none">
+      <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-md">
+        <a href="#intro" class="link-light navbar-brand px-3"
+          ><span class="fs-4">Carousel</span>
+        </a>
+        <div class="collapse navbar-collapse collape-show" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar navbar-expand-lg navbar-dark">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <form action="post" class="form-check-inline mt-2 mt-md-0 d-flex">
+          <input type="text" class="form-control" placeholder="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <div id="carouselExampleControlsNoTouching" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png"
+              class="d-block w-100"
+              alt="..."
+              style="height: 788px"
+            />
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Example headline</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary" role="button"
+                  >Sign up today</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png"
+              class="d-block w-100"
+              alt="..."
+              style="height: 788px"
+            />
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary" role="button"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://htmlcolorcodes.com/assets/images/colors/gray-color-solid-background-1920x1080.png"
+              class="d-block w-100"
+              alt="..."
+              style="height: 788px"
+            />
+            <div class="container">
+              <div class="carousel-caption text-center">
+                <h1>Another example headline.</h1>
+                <p>
+                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                  Donec id elit non mi porta gravida at eget metus. Nullam id
+                  dolor id nibh ultricies vehicula ut id elit.
+                </p>
+                <a href="#" class="btn btn-lg btn-primary" role="button"
+                  >Learn more</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="container">
+        <div class="row my-5">
+          <div
+            class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img
+              src="https://ih1.redbubble.net/image.2952974037.4135/ur,pin_large_front,square,600x600.jpg"
+              alt=""
+              width="240"
+              height="240"
+            />
+            <h2>Arthur Morgan</h2>
+            <p>
+              Donec sed odio dui. Etiam porta sem malesuada magna mollis
+              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Praesent commodo cursus magna.
+            </p>
+            <p>
+              <a href="#" class="btn btn-secondary" role="button"
+                >View details</a
+              >
+            </p>
+          </div>
+          <div
+            class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img
+              src="https://ih1.redbubble.net/image.2952974037.4135/ur,pin_large_front,square,600x600.jpg"
+              alt=""
+              width="240"
+              height="240"
+            />
+            <h2>Arthur Morgan</h2>
+            <p>
+              Donec sed odio dui. Etiam porta sem malesuada magna mollis
+              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Praesent commodo cursus magna.
+            </p>
+            <p>
+              <a href="#" class="btn btn-secondary" role="button"
+                >View details</a
+              >
+            </p>
+          </div>
+          <div
+            class="col-lg-4 d-flex flex-column justify-content-center align-items-center"
+          >
+            <img
+              src="https://ih1.redbubble.net/image.2952974037.4135/ur,pin_large_front,square,600x600.jpg"
+              alt=""
+              width="240"
+              height="240"
+            />
+            <h2>Arthur Morgan</h2>
+            <p>
+              Donec sed odio dui. Etiam porta sem malesuada magna mollis
+              euismod. Nullam id dolor id nibh ultricies vehicula ut id elit.
+              Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+              Praesent commodo cursus magna.
+            </p>
+            <p>
+              <a href="#" class="btn btn-secondary" role="button"
+                >View details</a
+              >
+            </p>
+          </div>
+        </div>
+        <hr class="divider" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 d-flex flex-column  justify-content-center">
+            <h2>First featurette heading. It'll blow your mind.</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+          </div>
+          <div class="col-md-5">
+            <img src="https://wallpapercave.com/wp/wp3892243.jpg" alt="" style="width: 500px; height: 500px;">
+          </div>
+        </div>
+        <hr class="divider" />
+        <div class="row">
+          <div class="col-md-5">
+            <img src="https://wallpapercave.com/wp/wp3892243.jpg" alt="" style="width: 500px; height: 500px;">
+          </div>
+          <div class="col-md-7 d-flex flex-column  justify-content-center">
+            <h2>Oh yeah, it's that good. See for yourself.</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+
+          </div>
+          <hr class="divider" />
+          <div class="row">
+            <div class="col-md-7 d-flex flex-column  justify-content-center">
+              <h2>And lastly, this one. Checkmate.</h2>
+              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+  
+            </div>
+            <div class="col-md-5">
+              <img src="https://wallpapercave.com/wp/wp3892243.jpg" alt="" style="width: 500px; height: 500px;">
+            </div>
+
+          </div>
+
+        </div>
+        <hr class="divider" />
+      </div>
+
+    </main>
+    <footer class="container d-flex justify-content-between p-5">
+      <div class="d-flex">
+        <p>
+          © 2017-2018 Company, Inc. · 
+        </p>
+        <a href="#">Privacy</a>
+        
+        <a href="#">Terms</a>
+      </div>
+      <div>
+        <a href="#">Back to top</a>
+      </div>
+     
+
+    </footer>
+  </body>
+</html>
